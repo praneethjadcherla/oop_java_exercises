@@ -1,25 +1,15 @@
 package com.techreturners.cats;
 
-public class DomesticCat implements Cat {
+public class DomesticCat extends CatImpl {
 
-    private boolean isAsleep;
+    public DomesticCat() {
+        super(false, 23, "domestic");
+    }
 
-    public boolean isAsleep() {
-       return isAsleep;
-   }
-   public boolean goToSleep(){
-       isAsleep=true;
-       return isAsleep;
-   }
-
-   public boolean wakeUp(){
-       isAsleep=false;
-       return isAsleep;
-   }
-
-   public String getSetting(){
-      return "domestic";
-   }
+    @Override
+    public String eat() {
+        return "Purrrrrrr";
+    }
 
 }
 

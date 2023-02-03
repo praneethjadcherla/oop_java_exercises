@@ -5,4 +5,5 @@ interface Cat {
     boolean goToSleep();
     boolean wakeUp();
     String getSetting();
+    int getAverageHeight();
 }

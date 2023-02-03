@@ -33,7 +33,7 @@ public class CatTest {
         assertEquals("domestic", domesticCat.getSetting());
     }
 
-/*
+
     @Test
     public void checkCatHeight() {
         Cat domesticCat = new DomesticCat();
@@ -63,6 +63,6 @@ public class CatTest {
         Cat domesticCat = new DomesticCat();
         assertEquals("Purrrrrrr", domesticCat.eat());
     }
-    */
+
 
 }
