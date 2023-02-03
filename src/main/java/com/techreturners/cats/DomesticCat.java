@@ -12,5 +12,14 @@ public class DomesticCat implements Cat {
        return isAsleep;
    }
 
+   public boolean wakeUp(){
+       isAsleep=false;
+       return isAsleep;
+   }
+
+   public String getSetting(){
+      return "domestic";
+   }
+
 }
 
