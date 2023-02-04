@@ -16,26 +16,16 @@ public abstract class CatImpl implements Cat{
         return isAsleep;
     }
 
-    public void setAsleep(boolean asleep) {
-        isAsleep = asleep;
-    }
 
     @Override
     public int getAverageHeight() {
         return averageHeight;
     }
 
-    public void setAverageHeight(int averageHeight) {
-        this.averageHeight = averageHeight;
-    }
 
     @Override
     public String getSetting() {
         return setting;
-    }
-
-    public void setSetting(String setting) {
-        this.setting = setting;
     }
 
     @Override
